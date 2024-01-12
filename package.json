@@ -1,0 +1,47 @@
+{
+  "name": "@foundrkit/foundr-ui",
+  "version": "0.0.1",
+  "description": "React component library by FoundrKit",
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FoundrKit/foundr-ui.git"
+  },
+  "author": "Foundr Kit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FoundrKit/foundr-ui/issues"
+  },
+  "homepage": "https://github.com/FoundrKit/foundr-ui#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@storybook/addon-essentials": "^7.6.7",
+    "@storybook/addon-interactions": "^7.6.7",
+    "@storybook/addon-links": "^7.6.7",
+    "@storybook/addon-onboarding": "^1.0.10",
+    "@storybook/blocks": "^7.6.7",
+    "@storybook/react": "^7.6.7",
+    "@storybook/react-vite": "^7.6.7",
+    "@storybook/test": "^7.6.7",
+    "@types/node": "^20.11.0",
+    "@types/react": "^18.2.47",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^4.9.5",
+    "rollup-plugin-dts": "^6.1.0",
+    "storybook": "^7.6.7",
+    "typescript": "^5.3.3"
+  },
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "./dist/index.d.ts"
+}
